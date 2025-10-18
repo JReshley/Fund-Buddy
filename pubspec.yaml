@@ -1,0 +1,66 @@
+name: fund_buddy
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.1.4
+  app_links: ^3.4.2
+  supabase_flutter: ^2.10.1
+  shared_preferences: ^2.1.1
+  flutter_secure_storage: ^9.1.0
+  intl: ^0.17.0
+  url_launcher: ^6.2.6
+  image_picker: ^1.2.0
+  cupertino_icons: ^1.0.8
+  google_generative_ai: ^0.4.7
+  http: ^1.1.0
+  flutter_dotenv: ^5.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.14.4"
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/Logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "lib/assets/Logo.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "lib/assets/Logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "lib/assets/Logo.png"
+  
+flutter:
+
+  assets:
+      - lib/assets/
+      - .env
+      
+  fonts:
+      - family: Space Grotesk
+        fonts:
+          - asset: lib/assets/fonts/SpaceGrotesk-Regular.ttf
+          - asset: lib/assets/fonts/SpaceGrotesk-Bold.ttf
+            weight: 700
+
+  uses-material-design: true

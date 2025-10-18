@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "208861379509",
+    "project_id": "fund-buddy-78f91",
+    "storage_bucket": "fund-buddy-78f91.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208861379509:android:f3672e22a5a7f0fa0f37fc",
+        "android_client_info": {
+          "package_name": "com.example.fund_buddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208861379509-nkca7jmbfs9ss29g7b0f8hgcgm6f8gfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fund_buddy",
+            "certificate_hash": "baec35358a56e5d4838f1bdba2adddf31121de93"
+          }
+        },
+        {
+          "client_id": "208861379509-7e9s1vchc4k56nk2ctrdsrcnltpoo5rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOHfPySaDm106OcsZdEXpo81ai991UuX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208861379509-7e9s1vchc4k56nk2ctrdsrcnltpoo5rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
